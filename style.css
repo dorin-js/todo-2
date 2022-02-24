@@ -1,0 +1,52 @@
+/* textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+} */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #352f5b;
+}
+.container {
+  max-width: 600px;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+}
+.outline-none:focus {
+  box-shadow: none !important;
+}
+.todos li {
+  background: #423a6f;
+}
+.delete {
+  cursor: pointer;
+}
+.filtered {
+  display: none !important;
+}
+.btn-bg-d {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+  border: none !important;
+  width: 38px;
+  margin: 0 auto;
+  justify-content: center;
+}
